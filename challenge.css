@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form .form__img {
+  width: 100vw;
+}
+.form * {
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.form .form__header {
+  font-size: 30px;
+  text-indent: 30px;
+}
+.form .form__text {
+  font-size: 20px;
+  margin: auto 30px 30px;
+}
+.form .form__buttons {
+  font-size: 20px;
+  margin: auto 30px 30px;
+}
+.form .form__buttons * {
+  border-radius: 2px;
+}
+.form .form__buttons .form__button {
+  background-color: #fafafa;
+  color: #333333;
+  border: 2px solid #333333;
+}
+.form .form__buttons .form__button--hover:hover {
+  background-color: #333333;
+  color: #fafafa;
+  border: 2px solid #fafafa;
+}/*# sourceMappingURL=challenge.css.map */

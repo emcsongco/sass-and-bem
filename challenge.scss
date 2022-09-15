@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+$font-body:"Roboto", sans-serif;
+$color-black: #333333;
+$color-white: #fafafa;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .form__img{
+        width: 100vw;
+    }
+    *{
+        padding: 20px;
+        font-family: $font-body;
+    }
+    .form__header{
+        font-size: 30px;
+        text-indent:30px;
+    }
+    .form__text{
+        font-size: 20px;
+        margin:auto 30px 30px;
+    }
+    .form__buttons{
+        font-size: 20px;
+        margin: auto 30px 30px;
+        *{
+            border-radius: 2px;
+        }
+        .form__button{
+            background-color: $color-white;
+            color: $color-black;
+            border: 2px solid $color-black;
+        }
+        .form__button--hover:hover{
+            background-color: $color-black;
+            color: $color-white;
+            border: 2px solid $color-white;
+        }
+    }
+}
